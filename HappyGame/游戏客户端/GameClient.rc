@@ -1,0 +1,370 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\GameClient.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\GameClient.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 7,7,0,3
+ PRODUCTVERSION 7,7,0,3
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "2050游戏中心"
+            VALUE "CompanyName", "2050游戏中心"
+            VALUE "FileDescription", "欢乐至尊客户端"
+            VALUE "FileVersion", "7, 7, 0, 3"
+            VALUE "InternalName", "RedNineBattle.exe"
+            VALUE "LegalCopyright", "2050游戏中心保留所有权利。"
+            VALUE "OriginalFilename", "RedNineBattle.exe"
+            VALUE "ProductName", "欢乐至尊客户端"
+            VALUE "ProductVersion", "7, 7, 0, 3"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+GAME_LOGO               BITMAP                  "res\\GAME_LOGO.bmp"
+IDB_VIEW_FILL           BITMAP                  "res\\VIEW_FILL.bmp"
+IDB_GAME_CARD           BITMAP                  "res\\GAME_CARD.bmp"
+IDB_JETTOM_VIEW         BITMAP                  "res\\bk_chip_total.bmp"
+IDB_SCORE_NUMBER        BITMAP                  "res\\dig_player.bmp"
+IDB_BT_JETTON_100       BITMAP                  "res\\BT_JETTON_100.bmp"
+IDB_BT_JETTON_500       BITMAP                  "res\\BT_JETTON_500.bmp"
+IDB_BT_JETTON_1000      BITMAP                  "res\\BT_JETTON_1000.bmp"
+IDB_BT_JETTON_10000     BITMAP                  "res\\BT_JETTON_10000.bmp"
+IDB_BT_JETTON_100000    BITMAP                  "res\\BT_JETTON_100000.bmp"
+IDB_JETTOM_ME           BITMAP                  "res\\box_chip_self.bmp"
+IDB_WIN_FLAGS           BITMAP                  "res\\WIN_FLAGS.bmp"
+IDB_LOSE_FLAGS          BITMAP                  "res\\LOSE_FLAGS.bmp"
+IDB_BT_APPLY_BANKER     BITMAP                  "res\\BT_APPLY_BANKER.bmp"
+IDB_BT_CANCEL_BANKER    BITMAP                  "res\\BT_CANCEL_BANKER.bmp"
+IDB_BT_SCORE_MOVE_L     BITMAP                  "res\\BT_SCORE_MOVE_L.bmp"
+IDB_BT_SCORE_MOVE_R     BITMAP                  "res\\BT_SCORE_MOVE_R.bmp"
+IDB_APPLY_USER_BACK     BITMAP                  "res\\APPLY_USER_BACK.bmp"
+IDB_CHANGE_BANKER       BITMAP                  "res\\CHANGE_BANKER.bmp"
+IDB_ME_BANKER           BITMAP                  "res\\ME_BANKER.bmp"
+IDB_NO_BANKER           BITMAP                  "res\\NO_BANKER.bmp"
+IDB_BT_CANCEL_APPLY     BITMAP                  "res\\BT_CANCEL_APPLY.BMP"
+IDB_BANKER_SCORE_NUMBER BITMAP                  "res\\dig_banker.bmp"
+IDB_TOTAL_SCORE_NUMBER  BITMAP                  "res\\dig_total.bmp"
+IDB_BT_JETTON_1000000   BITMAP                  "res\\BT_JETTON_1000000.BMP"
+IDB_BT_JETTON_5000000   BITMAP                  "res\\BT_JETTON_5000000.BMP"
+IDB_BT_JETTON_500000    BITMAP                  "res\\BT_JETTON_500000.BMP"
+IDB_BT_BANK             BITMAP                  "res\\BT_BANK.bmp"
+IDB_BT_STORAGE          BITMAP                  "res\\BT_STORAGE.bmp"
+IDB_BT_BT_S             BITMAP                  "res\\BT_S.bmp"
+IDB_BT_BT_X             BITMAP                  "res\\BT_X.bmp"
+IDB_NOTE_MAIN           BITMAP                  "res\\note_main.bmp"
+IDB_NOTE_AR_L           BITMAP                  "res\\note_arrow_l.bmp"
+IDB_NOTE_AR_C           BITMAP                  "res\\note_arrow_c.bmp"
+IDB_NOTE_AR_R           BITMAP                  "res\\note_arrow_r.bmp"
+IDB_NOTE_INFO           BITMAP                  "res\\note_info.bmp"
+IDB_MAIN_TIMER          BITMAP                  "res\\main_timer.bmp"
+IDB_MAIN_TIMER_NUM      BITMAP                  "res\\timer_number.bmp"
+IDB_BANKER_OTHER        BITMAP                  "res\\box_player.bmp"
+IDB_BANKER_ME           BITMAP                  "res\\box_banker.bmp"
+IDB_FRAME_SHUN_MEN      BITMAP                  "res\\FRAME_SHUN_MEN.bmp"
+IDB_FRAME_DAO_EMN       BITMAP                  "res\\FRAME_DAO_EMN.bmp"
+IDB_FRAME_DUI_MEN       BITMAP                  "res\\FRAME_DUI_MEN.bmp"
+IDB_FRAME_JIAO_L        BITMAP                  "res\\FRAME_JIAO_L.bmp"
+IDB_FRAME_JIAO_R        BITMAP                  "res\\FRAME_JIAO_R.bmp"
+IDB_FRAME_HENG_L        BITMAP                  "res\\FRAME_HENG_L.bmp"
+IDB_FRAME_HENG_R        BITMAP                  "res\\FRAME_HENG_R.bmp"
+IDB_CARD_FLAG_1         BITMAP                  "res\\door\\FLAG_1.bmp"
+IDB_CARD_FLAG_2         BITMAP                  "res\\door\\FLAG_2.bmp"
+IDB_CARD_FLAG_3         BITMAP                  "res\\door\\FLAG_3.bmp"
+IDB_CARD_FLAG_4         BITMAP                  "res\\door\\FLAG_4.bmp"
+IDB_CARD_FLAG_5         BITMAP                  "res\\door\\FLAG_5.bmp"
+IDB_CARD_FLAG_6         BITMAP                  "res\\door\\FLAG_6.bmp"
+IDB_CARD_FLAG_7         BITMAP                  "res\\door\\FLAG_7.bmp"
+IDB_CARD_FLAG_8         BITMAP                  "res\\door\\FLAG_8.bmp"
+IDB_CARD_FLAG_9         BITMAP                  "res\\door\\FLAG_9.bmp"
+IDB_CARD_FLAG_10        BITMAP                  "res\\door\\FLAG_10.bmp"
+IDB_CARD_FLAG_11        BITMAP                  "res\\door\\FLAG_11.bmp"
+IDB_CARD_FLAG_12        BITMAP                  "res\\door\\FLAG_12.bmp"
+IDB_CARD_FLAG_13        BITMAP                  "res\\door\\FLAG_13.bmp"
+IDB_CARD_FLAG_14        BITMAP                  "res\\door\\FLAG_14.bmp"
+IDB_CARD_FLAG_15        BITMAP                  "res\\door\\FLAG_15.bmp"
+IDB_CARD_FLAG_16        BITMAP                  "res\\door\\FLAG_16.bmp"
+IDB_CARD_FLAG_17        BITMAP                  "res\\door\\FLAG_17.bmp"
+IDB_CARD_FLAG_18        BITMAP                  "res\\door\\FLAG_18.bmp"
+IDB_CARD_FLAG_19        BITMAP                  "res\\door\\FLAG_19.bmp"
+IDC_BANKER_INFO         BITMAP                  "res\\banker_info.bmp"
+IDC_BANKER_LIST         BITMAP                  "res\\banker_list.bmp"
+IDB_CHIP_OVER           BITMAP                  "res\\btn_chip_over.bmp"
+IDD_SWEEP_ALL           BITMAP                  "res\\sweep_all.bmp"
+IDD_PASS_ALL            BITMAP                  "res\\pass_all.bmp"
+IDB_BT_AUTO_OPEN_CARD   BITMAP                  "res\\BT_AUTO_OPEN_CARD.bmp"
+IDB_BT_OPEN_CARD        BITMAP                  "res\\BT_OPEN_CARD.bmp"
+IDB_BT_QIANGZHUANG      BITMAP                  "res\\BT_QIANGZHUANG.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+HAND_R                  PNG                     "res\\HAND_R.png"
+HAND_L                  PNG                     "res\\HAND_L.png"
+GAME_END                PNG                     "res\\GAME_END.png"
+CARD_ANIMATION_1        PNG                     "res\\animation\\lp1.png"
+CARD_ANIMATION_2        PNG                     "res\\animation\\lp2.png"
+CARD_ANIMATION_3        PNG                     "res\\animation\\lp3.png"
+CARD_ANIMATION_4        PNG                     "res\\animation\\lp4.png"
+CARD_ANIMATION_5        PNG                     "res\\animation\\lp5.png"
+CARD_ANIMATION_6        PNG                     "res\\animation\\lp6.png"
+CARD_ANIMATION_7        PNG                     "res\\animation\\lp7.png"
+CARD_ANIMATION_8        PNG                     "res\\animation\\lp8.png"
+CARD_ANIMATION_9        PNG                     "res\\animation\\lp9.png"
+CARD_ANIMATION_10       PNG                     "res\\animation\\lp10.png"
+CARD_ANIMATION_11       PNG                     "res\\animation\\lp11.png"
+CARD_ANIMATION_12       PNG                     "res\\animation\\lp12.png"
+CARD_ANIMATION_13       PNG                     "res\\animation\\lp13.png"
+CARD_ANIMATION_14       PNG                     "res\\animation\\lp14.png"
+CARD_ANIMATION_15       PNG                     "res\\animation\\lp15.png"
+CARD_ANIMATION_16       PNG                     "res\\animation\\lp16.png"
+CARD_ANIMATION_17       PNG                     "res\\animation\\lp17.png"
+CARD_ANIMATION_18       PNG                     "res\\animation\\lp18.png"
+CARD_ANIMATION_19       PNG                     "res\\animation\\lp19.png"
+CARD_ANIMATION_20       PNG                     "res\\animation\\lp20.png"
+CARD_ANIMATION_21       PNG                     "res\\animation\\lp21.png"
+CARD_ANIMATION_22       PNG                     "res\\animation\\lp22.png"
+CARD_ANIMATION_23       PNG                     "res\\animation\\lp23.png"
+CARD_ANIMATION_24       PNG                     "res\\animation\\lp24.png"
+CARD_ANIMATION_25       PNG                     "res\\animation\\lp25.png"
+CARD_ANIMATION_26       PNG                     "res\\animation\\lp26.png"
+CARD_ANIMATION_27       PNG                     "res\\animation\\lp27.png"
+CARD_ANIMATION_28       PNG                     "res\\animation\\lp28.png"
+CARD_ANIMATION_29       PNG                     "res\\animation\\lp29.png"
+CARD_ANIMATION_30       PNG                     "res\\animation\\lp30.png"
+CARD_ANIMATION_31       PNG                     "res\\animation\\lp31.png"
+CARD_ANIMATION_32       PNG                     "res\\animation\\lp32.png"
+CARD_ANIMATION_33       PNG                     "res\\animation\\lp33.png"
+CARD_ANIMATION_34       PNG                     "res\\animation\\lp34.png"
+CARD_ANIMATION_35       PNG                     "res\\animation\\tp1.png"
+CARD_ANIMATION_36       PNG                     "res\\animation\\tp2.png"
+CARD_ANIMATION_37       PNG                     "res\\animation\\tp3.png"
+CARD_ANIMATION_38       PNG                     "res\\animation\\tp4.png"
+CARD_ANIMATION_39       PNG                     "res\\animation\\tp5.png"
+CARD_ANIMATION_40       PNG                     "res\\animation\\tp6.png"
+CARD_ANIMATION_41       PNG                     "res\\animation\\tp7.png"
+CARD_ANIMATION_42       PNG                     "res\\animation\\tp8.png"
+CARD_ANIMATION_43       PNG                     "res\\animation\\tp9.png"
+CARD_ANIMATION_44       PNG                     "res\\animation\\tp10.png"
+CARD_ANIMATION_45       PNG                     "res\\animation\\tp11.png"
+CARD_ANIMATION_46       PNG                     "res\\animation\\tp12.png"
+CARD_ANIMATION_47       PNG                     "res\\animation\\tp13.png"
+CARD_ANIMATION_48       PNG                     "res\\animation\\tp14.png"
+CARD_ANIMATION_49       PNG                     "res\\animation\\tp15.png"
+CARD_ANIMATION_50       PNG                     "res\\animation\\tp16.png"
+CARD_ANIMATION_51       PNG                     "res\\animation\\tp17.png"
+CARD_ANIMATION_52       PNG                     "res\\animation\\tp18.png"
+CARD_ANIMATION_53       PNG                     "res\\animation\\tp19.png"
+CARD_ANIMATION_54       PNG                     "res\\animation\\tp20.png"
+CARD_ANIMATION_55       PNG                     "res\\animation\\tp21.png"
+CARD_ANIMATION_56       PNG                     "res\\animation\\tp22.png"
+CARD_ANIMATION_57       PNG                     "res\\animation\\tp23.png"
+CARD_ANIMATION_58       PNG                     "res\\animation\\tp24.png"
+CARD_ANIMATION_59       PNG                     "res\\animation\\tp25.png"
+CARD_ANIMATION_60       PNG                     "res\\animation\\tp26.png"
+CARD_ANIMATION_61       PNG                     "res\\animation\\tp27.png"
+CARD_ANIMATION_62       PNG                     "res\\animation\\tp28.png"
+CARD_ANIMATION_63       PNG                     "res\\animation\\tp29.png"
+CARD_ANIMATION_64       PNG                     "res\\animation\\tp30.png"
+STAR_ANIMATION_1        PNG                     "res\\animation\\star_anim_1.png"
+STAR_ANIMATION_2        PNG                     "res\\animation\\star_anim_2.png"
+STAR_ANIMATION_3        PNG                     "res\\animation\\star_anim_3.png"
+STAR_ANIMATION_4        PNG                     "res\\animation\\star_anim_4.png"
+STAR_ANIMATION_5        PNG                     "res\\animation\\star_anim_5.png"
+STAR_ANIMATION_6        PNG                     "res\\animation\\star_anim_6.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+ADD_GOLD                WAVE                    "res\\sound\\ADD_GOLD.wav"
+ADD_GOLD_EX             WAVE                    "res\\sound\\ADD_GOLD_EX.wav"
+BACK_GROUND             WAVE                    "res\\sound\\BACK_GROUND.wav"
+END_WIN                 WAVE                    "res\\sound\\END_WIN.wav"
+END_LOST                WAVE                    "res\\sound\\END_LOST.wav"
+END_DRAW                WAVE                    "res\\sound\\END_DRAW.wav"
+TIME_WARIMG             WAVE                    "res\\sound\\TIME_WARIMG.wav"
+DISPATCH_CARD           WAVE                    "res\\sound\\DISPATCH_CARD.wav"
+GAME_START              WAVE                    "res\\sound\\GAME_START.wav"
+CHEER1                  WAVE                    "res\\sound\\CHEER1.wav"
+CHEER2                  WAVE                    "res\\sound\\CHEER2.wav"
+CHEER3                  WAVE                    "res\\sound\\CHEER3.wav"
+OUT_CARD                WAVE                    "res\\sound\\OUT_CARD.wav"
+CARD_DICE_1             WAVE                    "res\\sound\\dice_1.wav"
+CARD_DICE_2             WAVE                    "res\\sound\\dice_2.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_BANK_STORAGE DIALOGEX 0, 0, 251, 138
+STYLE DS_SETFONT | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_CLIPSIBLINGS | 
+    WS_CLIPCHILDREN | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "关闭",IDCANCEL,165,114,45,12
+    LTEXT           "当前欢乐豆：",-1,21,29,49,8
+    LTEXT           "...",IDC_GAME_GOLD,83,29,92,9
+    LTEXT           "银行欢乐豆：",-1,21,46,49,8
+    LTEXT           "...",IDC_STORAGE_GOLD,83,44,91,9
+    LTEXT           "欢乐豆数目：",-1,21,64,53,8
+    PUSHBUTTON      "确定",IDOK,41,115,45,12
+    EDITTEXT        IDC_IN_COUNT,82,61,95,12,ES_AUTOHSCROLL
+    LTEXT           "密             码：",IDC_STATIC_PASS,21,85,62,8
+    EDITTEXT        IDC_USER_PASSWORD,82,84,95,12,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    CONTROL         "",IDC_CHECK_ALL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    180,63,65,8
+END
+
+IDD_DLG_GAME_RECORD DIALOGEX 0, 0, 328, 105
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | 
+    WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_RECORD_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHAREIMAGELISTS | LVS_ALIGNLEFT | LVS_NOSCROLL | 
+                    LVS_NOCOLUMNHEADER | WS_TABSTOP,0,0,327,105
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_BANK_STORAGE, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 137
+    END
+
+    IDD_DLG_GAME_RECORD, DIALOG
+    BEGIN
+        RIGHTMARGIN, 186
+        BOTTOMMARGIN, 95
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\GameClient.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
